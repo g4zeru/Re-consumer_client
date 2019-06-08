@@ -20,6 +20,8 @@ class NetworkFactoryImpl: NetworkFactory {
     
     private func generateSessionDataTask(request: URLRequest, completion: @escaping (Result<Data, Error>) -> Void) -> URLSessionDataTask {
         return URLSession.shared.dataTask(with: request) {(data, response, error) in
+            print(response)
+            print(error)
             if let error = error {
                 completion(.failure(NetworkErrorGenerator(error: error as NSError).generate()))
                 return
@@ -28,6 +30,7 @@ class NetworkFactoryImpl: NetworkFactory {
                 completion(.failure(NetworkError.undefined))
                 return
             }
+            
             completion(.success(data))
         }
     }

@@ -27,7 +27,7 @@ public class NetworkSession {
     private(set) var model: RequestModel
     
     public convenience init(model: RequestModel,
-                            timeoutInterval: TimeInterval = 10,
+                            timeoutInterval: TimeInterval = 30,
                             cachePolicy: URLRequest.CachePolicy = URLRequest.CachePolicy.reloadIgnoringCacheData) {
         self.init(model: model,
                   timeoutInterval: timeoutInterval,
@@ -61,6 +61,7 @@ public class NetworkSession {
     public func startSession() {
         do {
             let request = try buildURLRequest()
+            print(request.url)
             network.session(request: request) { [weak self] (responce) in
                 self?.assignNetworkResponce(responce: responce)
             }
