@@ -32,6 +32,8 @@
 		B9EE1BF822AB83FF006532E0 /* PreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE1BF722AB83FF006532E0 /* PreviewController.swift */; };
 		B9EE1C0122AB91B7006532E0 /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE1C0022AB91B7006532E0 /* RecipeList.swift */; };
 		B9EE1C0322AB940B006532E0 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE1C0222AB940B006532E0 /* Recipe.swift */; };
+		B9EE1C0522AB9588006532E0 /* RecipeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE1C0422AB9588006532E0 /* RecipeListViewController.swift */; };
+		B9EE1C0A22AB97D0006532E0 /* RecipeListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE1C0822AB97D0006532E0 /* RecipeListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +121,8 @@
 		B9EE1BF722AB83FF006532E0 /* PreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewController.swift; sourceTree = "<group>"; };
 		B9EE1C0022AB91B7006532E0 /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
 		B9EE1C0222AB940B006532E0 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		B9EE1C0422AB9588006532E0 /* RecipeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewController.swift; sourceTree = "<group>"; };
+		B9EE1C0822AB97D0006532E0 /* RecipeListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +195,8 @@
 			children = (
 				B9EE1B8422AB751F006532E0 /* AppDelegate.swift */,
 				B9EE1BF322AB8053006532E0 /* CameraViewController.swift */,
+				B9EE1C0422AB9588006532E0 /* RecipeListViewController.swift */,
+				B9EE1C0822AB97D0006532E0 /* RecipeListTableViewCell.swift */,
 				B9EE1BF722AB83FF006532E0 /* PreviewController.swift */,
 				B9EE1BFF22AB9199006532E0 /* Entity */,
 				B9EE1BF522AB8092006532E0 /* Camera.storyboard */,
@@ -481,8 +487,10 @@
 				B9EE1BF822AB83FF006532E0 /* PreviewController.swift in Sources */,
 				B9EE1B8722AB751F006532E0 /* ViewController.swift in Sources */,
 				B9EE1C0122AB91B7006532E0 /* RecipeList.swift in Sources */,
+				B9EE1C0A22AB97D0006532E0 /* RecipeListTableViewCell.swift in Sources */,
 				B9EE1C0322AB940B006532E0 /* Recipe.swift in Sources */,
 				B9EE1B8522AB751F006532E0 /* AppDelegate.swift in Sources */,
+				B9EE1C0522AB9588006532E0 /* RecipeListViewController.swift in Sources */,
 				B9EE1BF422AB8054006532E0 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

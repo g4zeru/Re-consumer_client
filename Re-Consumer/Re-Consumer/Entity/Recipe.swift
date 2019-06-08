@@ -11,4 +11,5 @@ import Foundation
 struct Recipe: Codable {
     let name: String
     let url: URL
+    let link: URL
 }
