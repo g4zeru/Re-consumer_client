@@ -17,7 +17,7 @@ public class NetworkSession {
     let network: NetworkFactory
     let header: HeaderFactory
     let parameter: ParameterFactory
-    let query: QueryParameterFactory
+    let query:  QueryParameterFactory
     
     let cachePolicy: URLRequest.CachePolicy
     let timeoutInterval: TimeInterval
